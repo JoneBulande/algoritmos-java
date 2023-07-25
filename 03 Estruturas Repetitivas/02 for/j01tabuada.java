@@ -20,16 +20,15 @@ import java.util.Scanner;
 public class j01tabuada {
   public static void main(String[] args) {
 
-    int x,i;
+    int x, i;
     try (Scanner entrada = new Scanner(System.in)) {
 
       System.out.print("Deseja a tabuada para qual valor? ");
       x = entrada.nextInt();
 
       for (i = 1; i <= 10; i++) {
-        System.out.printf("%d X %d = %d\n", x, i, x*i);
+        System.out.printf("%d X %d = %d\n", x, i, x * i);
       }
-
 
       // entrada.close();
     }
