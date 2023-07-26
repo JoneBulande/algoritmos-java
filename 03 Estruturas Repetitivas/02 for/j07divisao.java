@@ -24,7 +24,7 @@ public class j07divisao {
     System.out.print("Quantos casos voce vai digitar? ");
     N = entrada.nextInt();
 
-    for (int i = 0; i < N ; i ++) {
+    for (int i = 0; i < N; i++) {
 
       System.out.print("Entre com o numerorador: ");
       x = entrada.nextInt();
@@ -33,9 +33,9 @@ public class j07divisao {
       y = entrada.nextInt();
 
       if (y == 0) {
-      
+
         System.out.println("DIVISAO IMPOSSIVEL");
-      
+
       } else {
 
         divisao = (double) x / y;
