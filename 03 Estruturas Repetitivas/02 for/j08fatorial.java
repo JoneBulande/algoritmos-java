@@ -20,7 +20,7 @@ public class j08fatorial {
     Scanner entrada = new Scanner(System.in);
     int N, fatorial;
     
-    System.out.println("Digite o valor de N: ");
+    System.out.print("Digite o valor de N: ");
     N = entrada.nextInt();
 
     fatorial = 1;
