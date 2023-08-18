@@ -30,7 +30,7 @@ public class j01tabuada {
         System.out.printf("%d X %d = %d\n", x, i, x * i);
       }
 
-      // entrada.close();
+      entrada.close();
     }
   }
 }
