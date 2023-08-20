@@ -15,7 +15,7 @@
 
 import java.util.Scanner;
 
-public class J02SomaVetores {
+public class J02SomaVetor {
   public static void main(String[] args) {
 
     int N;
