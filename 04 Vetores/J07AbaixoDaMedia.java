@@ -46,7 +46,7 @@ public class J07AbaixoDaMedia {
       }
     }
 
-    
+    sc.close();
 
   }
 }
